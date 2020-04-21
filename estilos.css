@@ -1,0 +1,70 @@
+#biografia
+{
+
+
+font-family: arial;
+color: white;
+font-size: x-large;
+width: 1050px; 
+height: 500px;
+text-align: justify;
+vertical-align: middle;
+
+
+}
+
+#imagen
+{
+
+
+width: 250x; 
+height: 220px;
+vertical-align: middle;
+float: left;
+
+
+
+}
+
+#cuerpo
+{
+
+	background: url(otra.jpg) ;
+	background-size: cover;
+
+
+}
+
+#Cursos
+{
+	position: relative;
+	left: 5px;
+	bottom: 230px;
+	justify-content: flex-start;
+	color: white;
+	font-family: arial;
+	font-size: x-large;
+	
+
+}
+
+#Proyectos
+{
+	position: relative;
+	left: 5px;
+	bottom: 250px;
+	justify-content: flex-start;
+	color: white;
+	font-family: arial;
+	font-size: x-large;
+
+	
+
+}
+
+#titulo
+{
+	background-color: #1d4d44;
+
+}
+
