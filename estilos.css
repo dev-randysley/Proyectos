@@ -65,6 +65,10 @@ float: left;
 #titulo
 {
 	background-color: #1d4d44;
+	border-radius: 57px 57px 57px 57px;
+	-moz-border-radius: 57px 57px 57px 57px;
+	-webkit-border-radius: 57px 57px 57px 57px;
+	border: 0px solid #000000;
 
 }
 
