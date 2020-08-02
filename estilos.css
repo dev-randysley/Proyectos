@@ -1,79 +1,87 @@
-#biografia
-{
-
-
-font-family: arial;
-color: white;
-font-size: x-large;
-width: 1050px; 
-height: 500px;
-text-align: justify;
-vertical-align: middle;
-
-
+*{
+	margin:0;
+	padding:0;
 }
 
-#imagen
-{
+body{
 
-
-width: 250x; 
-height: 220px;
-vertical-align: middle;
-float: left;
-
-
-
+	background:#ccc;
 }
 
-#cuerpo
-{
+header,footer,.main{
 
-	background: url(background.jpg) ;
-	background-size: cover;
-
-
+	width:90%;
+	margin:auto;
+	max-width:1000px;
 }
 
-#Cursos
-{
-	position: relative;
-	left: 5px;
-	bottom: 230px;
-	justify-content: flex-start;
-	color: white;
-	font-family: arial;
-	font-size: x-large;
+img{
 	
-
-}
-
-#Proyectos
-{
-	position: relative;
-	left: 5px;
-	bottom: 250px;
-	justify-content: flex-start;
-	color: white;
-	font-family: arial;
-	font-size: x-large;
-
+	margin-top:15px;
+	margin-bottom:5px;
+	width:250px;
 	
+	position-bottom:300px;
+	border-radius:60px;
+	float:left;
+}
+
+
+#cabecera
+{
+	background:#408ff4;
+	list-style-type:none;
+	padding:15px 5px;
+	font-weight:bold;
+	font-size:20px;
+	color: white;
+
 
 }
 
-#titulo
+
+.biografia article{
+	
+	width:68.5%;
+	float:left;
+	margin-right:1.5%;
+	text-align:justify;
+	padding: 0px 20px;
+	margin-bottom:1.5%;
+	
+}
+
+.cursos
 {
-	background-color: #1d4d44;
-	border-radius: 57px 57px 57px 57px;
-	-moz-border-radius: 57px 57px 57px 57px;
-	-webkit-border-radius: 57px 57px 57px 57px;
-	border: 0px solid #000000;
+
+	clear:both;
+	
+}
+
+hr
+{
+	margin:10px 0px;
 
 }
 
-#etiqueta
+ul
 {
+	padding: 5px 10px;
+}
 
-	color: #12cf71;
+article h1
+{
+	font-size:20px;
+	padding:10px 0px;
+}
+
+footer{
+
+	clear:both;
+	background:black;
+	color:white;
+	padding:5px;
+	margin-top:15px;
+	text-align:center;
+	font-size:15px;
 }
