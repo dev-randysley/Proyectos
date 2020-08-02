@@ -6,13 +6,14 @@
 body{
 
 	background:#ccc;
+	
 }
 
 header,footer,.main{
 
 	width:90%;
 	margin:auto;
-	max-width:1000px;
+	max-width:90%;
 }
 
 img{
@@ -42,11 +43,11 @@ img{
 
 .biografia article{
 	
-	width:68.5%;
+	width:66%;
 	float:left;
 	margin-right:1.5%;
 	text-align:justify;
-	padding: 0px 20px;
+	padding: 0% 2%;
 	margin-bottom:1.5%;
 	
 }
